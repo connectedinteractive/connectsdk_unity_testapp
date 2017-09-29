@@ -32,11 +32,11 @@ public class SceneController : MonoBehaviour {
 
 	public void ButtonClickLeft() 
 	{
-		//ConnectTracker.TrackEvent(string.Format("{0}_button_click_left", name));
+		ConnectTracker.TrackEvent(string.Format("{0}_button_click_left", name));
 	}
 
 	public void ButtonClickRight() 
 	{
-		//ConnectTracker.TrackEvent(string.Format("{0}_button_click_right", name), "value_test");
+		ConnectTracker.TrackEvent(string.Format("{0}_button_click_right", name), "value_test");
 	}
 }
